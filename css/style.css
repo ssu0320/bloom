@@ -1,0 +1,328 @@
+@import url('reset.css');
+@font-face {
+    font-family: 'Cafe24Shiningstar';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Shiningstar.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#wrap { width: 100%;  }
+#header_wrap {  width: 100%; height: 150px; border-bottom: 1px solid rgb(255, 93, 93); }
+
+#banner { width: 100%; }
+#banner img { max-width: 100%; height: auto;}
+
+#banner_1 { width: 100%; margin-top: 120px;  }
+#banner_1 img { max-width: 100%; height: auto;}
+
+#banner_m { display: none; }
+
+
+#contents_wrap_1 { width: 100%; padding-top: 120px;}
+#footer_wrap { width: 100%; height: 250px;  background: #ddd;  }
+
+
+#header { position: relative; width: 1200px; margin: 0 auto; }
+#header h1 { float: left; width: 20%; padding-top: 40px;  }
+#header h1 img { max-width: 100%; height: auto; }
+
+a#pull { display: none; }
+
+.top_menu { position: absolute; top: 0; right: 0; }
+.top_menu li { float: left;  }
+.top_menu li.line { color: #555;   }
+.top_menu li a { padding: 0 15px;  color: #555;}
+.top_menu li a:hover { color: #000; }
+
+nav {  float: left;  width: 80%;  }
+nav ul.gnb {  float: right; margin-top: 100px;   }
+nav ul.gnb li { float: left;  }
+nav ul.gnb li a { padding: 10px 25px; font-size: 20px; color: rgb(97, 97, 97); display: block;  }
+nav ul.gnb li a:hover { color: rgb(255, 93, 93);  }
+
+@media (max-width: 1200px){
+    #header { width: 100%;   }
+
+
+}   
+
+@media (max-width: 960px){
+    nav ul.gnb li a { font-size: 18px; }
+
+
+}   
+
+@media (max-width: 768px){
+
+    
+    #header h1 { width: 20%;  padding-top: 30px; }
+    #header h1 img{ width: 110px;  }
+
+    nav { width: 100%; }
+    nav ul.gnb { width: 100%; margin-top: 30px;  }
+    nav ul.gnb li {width: 20%;  text-align: center; }
+    nav ul.gnb li a { font-size: 16px; padding: 0 0 0 0;}
+}
+
+@media (max-width: 480px){
+    #header_wrap { height: 100px;   }
+    #header h1 { width: 100%;  padding: 20px 0 0 10px; }
+    #header h1 img{ width: 90px;  }
+
+    #banner { display: none; }
+    #banner_m { display: block; }
+
+    .top_menu { display: none; }
+    nav ul.gnb { display: none; }
+    nav ul.gnb li {  width: 100%;   padding:10px 0; }
+    a#pull { display: block; position: absolute; top: 35px; right: 20px; font-size: 1.7rem;}
+
+}
+
+
+
+
+
+
+#contents_1 {position: relative;  width: 1200px;  margin: 0 auto;  }
+
+/* 정기구독 */
+.b_text { font-family: 'Cafe24Shiningstar'; font-size: 40px; color: #666; }
+.b_text span {font-family: 'Cafe24Shiningstar'; font-size: 52px; }
+
+.text {  position: absolute; top: 180px; left: 100px; color: #666; }
+.s_text { font-family: 'Cafe24Shiningstar'; font-size: 50px; text-align: center; padding-bottom: 40px; }
+.ss_text { font-family: 'Cafe24Shiningstar'; font-size: 36px; text-align: center;}
+
+.img_text span { background:rgb(255, 196, 196); border-radius: 55%;}
+.img_1 { float: left;  width: 39%; padding: 8% 2% 0 0;  }
+.img_1 img { max-width: 100%; height: auto; }
+
+/* .img_1 {float: left;  width: 30%; height: 500px; background: url(/images/img_9_2.jpg); background-size: cover; } */
+
+.img_text_t { color: #666; margin-top: 15px; }
+.img_text_s { color: #666;}
+
+.img_2 { float: right; width: 59%;}
+
+.img_2_1 { float: left; width: 49%; padding-top: 15px; margin-right: 2%; overflow: hidden; }
+.img_2_1 img { max-width: 100%; height: auto;  }
+
+.img_2_1:hover img { opacity: 0.7; }
+.img_2_1 *{ transition: all 0.45s ease-in-out; }
+
+.img_2_2 { float: right; width: 49%; padding-top: 15px; }
+.img_2_2 img { max-width: 100%; height: auto;  }
+
+.img_2_2 a:hover { opacity: 0.7;  }
+.img_2_2 *{ transition: all 0.45s ease-in-out; }
+
+
+/* 꽃배달 */
+.bb_text { font-family: 'Cafe24Shiningstar';font-size: 38px; margin-bottom: 20px; color: #777; }
+.more {  position: absolute; top: 0px; right: 0; }
+.more_1 {  position: absolute; top: 5px; right: 0; }
+ion-icon {  font-size: 40px; color: #555; }
+ion-icon:hover { color: #000; }
+
+
+.img_box_1 { float: left; width: 23%; margin-right: 2.666667%; overflow: hidden; background: #fff;}
+.img_box_1 img { max-width: 100%; height: auto;  }
+
+.img_box_2 { float: right; width: 23%; overflow: hidden; background: #fff;}
+.img_box_2 img { max-width: 100%; height: auto;  }
+
+.img_box_1 a:hover img{  opacity: 0.7; }
+.img_box_2 a:hover img{  opacity: 0.7; }
+
+.img_box_1 *{ transition: all 0.45s ease-in-out; }
+.img_box_2 *{ transition: all 0.45s ease-in-out; }
+
+
+
+
+/* 중간배너 */
+
+#banner_1 { position: relative; width: 100%; }
+#banner_1 img { max-width: 100%; height: auto;}
+
+
+
+
+/* 원데이클래스 */
+
+.left { float: left;  width: 38%; padding: 3% 2% 0 0; }
+.left img { max-width: 100%; height: auto; }
+/* .slider_2 { float: right;  } */
+
+.right { float: right; width: 60%;}
+
+.one_text {display: none; }
+.text_1 {  position: absolute; top: 180px; left: 70px; color: #666; }
+.s_text_1 { font-family: 'Cafe24Shiningstar'; font-size: 50px; text-align: center; padding-bottom: 40px; }
+.ss_text_1 { font-family: 'Cafe24Shiningstar'; font-size: 36px; text-align: center;}
+
+.slide_text { display: none; }
+.slide_text_1 { display: none; }
+
+
+@media (max-width: 1220px){
+    #wrap{ width: 100%; }
+
+    #contents_1 { width: 100%; }
+
+
+.b_text { font-size: 30px;  }
+.b_text span {font-size: 42px;  }
+
+
+/* 
+.img_1 { width: 28%; padding: 90px 5% 0 0; ;}
+.img_1 img { max-width: 100%; height: auto; }
+
+.img_2 { width: 67%;   } */
+
+
+/* .left { width: 28%; padding: 90px 2% 0 0;  }
+.left img { max-width: 100%; height: auto;  }
+.right { background:rgb(255, 196, 196);  }
+.right img { max-width: 100%;  height: auto;  } */
+
+.text { position: absolute; top: 175px; left: 110px; }
+.s_text {  font-size: 42px; }
+.ss_text { font-size: 30px;}
+
+
+.text_1 {  position: absolute; top: 175px; left: 90px;  }
+.s_text_1 {  font-size: 42px;  }
+.ss_text_1 { font-size: 30px; }
+
+
+}
+
+@media (max-width: 768px){
+    
+    #contents_wrap_1 { padding-top: 80px; }
+
+    #contents_1 { width: 100%; }
+    #banner_1 { margin-top: 80px; }
+    .bb_text { font-size: 40px; text-align: center;}
+
+    .b_text { font-size: 30px;  text-align: center;}
+    .b_text span { font-size: 45px;   }
+
+    .text { position: absolute; top: 125px; left: 70px; }
+    .s_text {  font-size: 30px; }
+    .ss_text { font-size: 20px;}
+
+    
+    .more { padding-right: 50px;   }
+    
+    .img_1 { display: none;   }
+
+    /* .img_1 { width: 100%; padding: 0 0 0 0;  }
+    .img_1 img { max-width: 100%; height: auto; } */
+
+    .img_2 { width: 100%;   }
+    
+    .img_2_1{ width: 49%;   margin-right: 2%;}
+    .img_2_1 img { max-width: 100%; height: auto;}
+    .img_2_2{ width: 49%; }
+    .img_2_2 img { max-width: 100%; height: auto;}
+    .text_1 {  position: absolute; top: 135px; left: 57px;  }
+    .s_text_1 {  font-size: 30px; }
+    .ss_text_1 { font-size: 20px }
+
+    .img_text_t { font-size: 14px;  }
+    .img_text_s { padding-bottom: 10px;   }
+    .img_box { text-align: center;}
+    .img_box_1 { width: 50%;  margin-right: 0;}
+    .img_box_2 { width: 50%;  margin-right: 0;}
+
+    .one_text {display: block;  font-family: 'Cafe24Shiningstar';font-size: 40px; margin-bottom: 20px; color: #777; text-align: center; }
+    .left { display: none;  }
+    .left { width: 100%; }
+    .right { width: 100%; }
+    .right img{ max-width: 100%; height: auto; }
+
+    /* .text_box { width: 600px; height: 200px; background:rgba(255, 255, 255, 0.5); z-index: 999;
+                position: absolute; top: 100%; left: 50%;  transform: translate(-50%, 100%); 
+                }
+    .slide_text { display: block; font-family: 'Cafe24Shiningstar'; font-size: 50px;  
+                    text-align: center; line-height: 200px; ; color: #fff; } */
+    /* .slide_text_1 { display: block; width: 100px;  background: #ccc; text-align: center; padding: 5px 10px; } */
+}
+
+@media (max-width: 480px){
+
+    #contents_wrap_1 { padding-top: 50px; }
+    #banner_1 { margin-top: 50px; }
+    #banner_m { width: 100%;  }
+    #banner_m img { max-width: 100%; height: auto; }
+
+    ion-icon {  font-size: 30px; color: #555; }
+
+    .bb_text { font-size: 28px; text-align: center;  }
+    .more { padding-right: 94px;   }
+    .b_text {  font-size: 24px;  text-align: center;}
+    .b_text span {  font-size: 34px; }
+
+    .img_1 { display: none; }
+    .img_2 { width: 100%; }
+
+
+    .text { position: absolute; top: 125px; left: 70px; }
+    .s_text {  font-size: 30px; }
+    .ss_text { font-size: 20px;}
+
+    .text_1 {  position: absolute; top: 135px; left: 57px;  }
+    .s_text_1 {  font-size: 30px; }
+    .ss_text_1 { font-size: 20px }
+
+    .img_text_t { margin-top: 15px;  }
+    .img_text_s { margin-bottom: 30px;  }
+    
+    .img_box_1 { width: 100%; margin : 0; text-align: center; }
+    .img_box_1 img { max-width: 100%; height: auto; }
+    .img_box_2 { width: 100%; margin : 0; text-align: center; }
+
+    .one_text {display: block;  font-family: 'Cafe24Shiningstar';font-size: 40px; margin-bottom: 20px; color: #777; text-align: center; }
+
+    .left { display: none; }
+    .right { width: 100%; }
+    .right img{ max-width: 100%; height: auto; }
+
+
+}
+
+#footer  {  width: 1200px; height: 250px; margin: 0 auto; }
+
+.f_logo { float: left; padding: 52px 40px 0 0; }
+.f_logo img { max-width: 100%; height: auto; }
+.f_text { float: left; padding-top : 70px; font-size: 15px; color: #777;}
+.f_sns { float: right; padding-top : 70px; }
+.f_sns a { color: #999; font-size: 2rem; padding-right: 10px;  }
+
+@media (max-width: 1200px){
+#footer { width: 100%; }
+
+}
+
+@media (max-width: 768px){
+    #footer_wrap { margin-top: 0;}
+
+
+    .f_logo { width: 20%;  padding:  52px  20px 0 0; }
+    .f_text {  padding-top : 70px; font-size: 13px; }
+    .f_sns { padding-top : 70px; }
+    .f_sns a { font-size: 1.5rem; padding-right: 5px;  }
+}
+
+@media (max-width: 480px){
+    #footer_wrap { margin-top: 0; }
+    .f_logo { width: 20%;  padding:  52px  20px 0 0; }
+    .f_logo img{ max-width: 100%; height: auto; }
+    .f_text { padding-top : 50px; font-size: 13px; }
+    .f_sns { display: none; }
+}
